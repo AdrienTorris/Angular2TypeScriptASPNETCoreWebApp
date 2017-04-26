@@ -19,7 +19,6 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyProductAttribute("Angular2TypeScriptASPNETCoreWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Angular2TypeScriptASPNETCoreWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
-[assembly: System.Resources.NeutralResourcesLanguageAttribute("en")]
 
 // Généré par la classe MSBuild WriteCodeFragment.
 

@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26014.0
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{050F5BB8-3293-4332-96ED-40ABA44AB5B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular2TypeScriptASPNETCoreWebApp", "src\Angular2TypeScriptASPNETCoreWebApp\Angular2TypeScriptASPNETCoreWebApp.csproj", "{C0405150-307A-4D35-8CA8-FA0A3F220458}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Angular2TypeScriptASPNETCoreWebApp", "src\Angular2TypeScriptASPNETCoreWebApp\Angular2TypeScriptASPNETCoreWebApp.csproj", "{C0405150-307A-4D35-8CA8-FA0A3F220458}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,16 +19,16 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Debug|x64.ActiveCfg = Debug|x64
-		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Debug|x64.Build.0 = Debug|x64
-		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Debug|x86.ActiveCfg = Debug|x86
-		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Debug|x86.Build.0 = Debug|x86
+		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Debug|x64.Build.0 = Debug|Any CPU
+		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Debug|x86.Build.0 = Debug|Any CPU
 		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Release|x64.ActiveCfg = Release|x64
-		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Release|x64.Build.0 = Release|x64
-		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Release|x86.ActiveCfg = Release|x86
-		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Release|x86.Build.0 = Release|x86
+		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Release|x64.ActiveCfg = Release|Any CPU
+		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Release|x64.Build.0 = Release|Any CPU
+		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Release|x86.ActiveCfg = Release|Any CPU
+		{C0405150-307A-4D35-8CA8-FA0A3F220458}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
