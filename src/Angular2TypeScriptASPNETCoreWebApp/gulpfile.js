@@ -1,19 +1,34 @@
 ﻿/// <binding Clean='clean' />
 "use strict";
 
-var gulp = require("gulp");
+var gulp = require('gulp');
 var config = require('./gulp.config')();
+var cleanCSS = require('gulp-clean-css');
+var clean = require('gulp-clean');
+var rename = require('gulp-rename');
 var $ = require('gulp-load-plugins')({ lazy: true });
 
 gulp.task("clean:js", function (cb) {
-    return $.rimraf(config.concatJsDest, cb);
+    //return $.rimraf('wwwroot/js/*.min.js', cb);
+    return gulp.src('wwwroot/js/*.min.js', { read: false }).pipe(clean());
 });
 
 gulp.task("clean:css", function (cb) {
-    $.rimraf(config.concatCssDest, cb);
+    //return $.rimraf('wwwroot/css/*.min.css', cb);
+    return gulp.src('wwwroot/css/*.min.css', { read: false }).pipe(clean());
+});
+
+gulp.task('minify:css', function () {
+    return gulp.src(config.css)
+        .pipe(cleanCSS())
+        .pipe(rename({
+            suffix: '.min'
+        }))
+        .pipe(gulp.dest(config.cssDest));
 });
 
 gulp.task("clean", ["clean:js", "clean:css"]);
+gulp.task('minify', ['minify:css']);
 
 gulp.task("copy:angular", function () {
 
@@ -69,7 +84,8 @@ gulp.task("copy:jasmine", function () {
         .pipe(gulp.dest(config.lib));
 });
 
-gulp.task("dependencies", ["copy:angular",
+gulp.task("dependencies", [
+    "copy:angular",
     "copy:angularWebApi",
     "copy:corejs",
     "copy:zonejs",
@@ -77,11 +93,12 @@ gulp.task("dependencies", ["copy:angular",
     "copy:systemjs",
     "copy:rxjs",
     "copy:jasmine",
-    "copy:app"]);
+    "copy:app"
+]);
 
 gulp.task("watch", function () {
     return $.watch(config.app)
         .pipe(gulp.dest(config.appDest));
 });
 
-gulp.task("default", ["clean", "dependencies"]);
+gulp.task("default", ["clean", 'minify', "dependencies"]);

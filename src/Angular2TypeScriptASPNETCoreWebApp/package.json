@@ -36,6 +36,8 @@
     "gulp-tsc": ">=1.2.0",
     "gulp-uglify": ">=1.2.0",
     "gulp-watch": ">=4.3.9",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-clean": "^0.3.2",
     "jasmine-core": "2.4.1",
     "tslint": "^3.15.1",
     "typescript": "^2.0.0",
