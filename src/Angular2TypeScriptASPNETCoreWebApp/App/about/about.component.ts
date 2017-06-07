@@ -2,10 +2,7 @@
 
 @Component({
     selector: 'about',
-    template: `
-        <h1>About</h1>
-        <p>Hi! I'm Adrien Torris, my blog is https://adrientorris.github.io/ and I'm on Twitter ;)</p>
-    `
+    templateUrl: 'app/about/about.html'
 })
 export class AboutComponent implements OnInit {
 
