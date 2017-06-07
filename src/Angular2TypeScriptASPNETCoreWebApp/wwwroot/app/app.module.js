@@ -5,12 +5,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = require("@angular/core");
 const platform_browser_1 = require("@angular/platform-browser");
 const http_1 = require("@angular/http");
+const app_routing_module_1 = require("./app-routing.module");
 const app_component_1 = require("./app.component");
 const home_component_1 = require("./home/home.component");
-const app_routing_module_1 = require("./app-routing.module");
+const about_component_1 = require("./about/about.component");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -22,7 +24,8 @@ AppModule = __decorate([
         ],
         declarations: [
             app_component_1.AppComponent,
-            home_component_1.HomeComponent
+            home_component_1.HomeComponent,
+            about_component_1.AboutComponent
         ],
         bootstrap: [app_component_1.AppComponent],
         providers: []

@@ -8,6 +8,7 @@
             <h2>Made with ASP.NET Core and Visual Studio 2017</h2>
             <nav>
                 <a routerLink="home" routerLinkActive="active">Home</a>
+                <a routerLink="about">About</a>
             </nav>
             <router-outlet></router-outlet>
         </div>

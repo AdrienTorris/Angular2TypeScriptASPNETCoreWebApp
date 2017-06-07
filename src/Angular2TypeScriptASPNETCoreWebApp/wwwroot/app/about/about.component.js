@@ -10,31 +10,23 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = require("@angular/core");
-let AppComponent = class AppComponent {
+let AboutComponent = class AboutComponent {
     constructor() {
-        console.log('AppComponent -> constructor');
+        console.log('AboutComponent -> constructor');
     }
     ngOnInit() {
-        console.log('AppComponent -> ngOnInit');
+        console.log('AboutComponent -> ngOnInit');
     }
 };
-AppComponent = __decorate([
+AboutComponent = __decorate([
     core_1.Component({
-        selector: 'my-app',
+        selector: 'about',
         template: `
-        <div class="container">
-            <h1>Angular 2 & TypeScript web application</h1>
-            <h2>Made with ASP.NET Core and Visual Studio 2017</h2>
-            <nav>
-                <a routerLink="home" routerLinkActive="active">Home</a>
-                <a routerLink="about">About</a>
-            </nav>
-            <router-outlet></router-outlet>
-        </div>
-    `,
-        providers: []
+        <h1>About</h1>
+        <p>Hi! I'm Adrien Torris, my blog is https://adrientorris.github.io/ and I'm on Twitter ;)</p>
+    `
     }),
     __metadata("design:paramtypes", [])
-], AppComponent);
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+], AboutComponent);
+exports.AboutComponent = AboutComponent;
+//# sourceMappingURL=about.component.js.map

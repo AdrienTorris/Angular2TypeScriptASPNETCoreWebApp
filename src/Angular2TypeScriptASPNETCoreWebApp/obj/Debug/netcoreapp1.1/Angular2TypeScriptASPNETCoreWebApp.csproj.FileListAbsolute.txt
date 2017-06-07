@@ -15,3 +15,4 @@ C:\Users\a.torris\Documents\GitHub\Angular2TypeScriptASPNETCoreWebApp\src\Angula
 C:\Users\a.torris\Documents\GitHub\Angular2TypeScriptASPNETCoreWebApp\src\Angular2TypeScriptASPNETCoreWebApp\obj\Debug\netcoreapp1.1\Angular2TypeScriptASPNETCoreWebApp.AssemblyInfo.cs
 C:\Users\a.torris\Documents\GitHub\Angular2TypeScriptASPNETCoreWebApp\src\Angular2TypeScriptASPNETCoreWebApp\obj\Debug\netcoreapp1.1\Angular2TypeScriptASPNETCoreWebApp.dll
 C:\Users\a.torris\Documents\GitHub\Angular2TypeScriptASPNETCoreWebApp\src\Angular2TypeScriptASPNETCoreWebApp\obj\Debug\netcoreapp1.1\Angular2TypeScriptASPNETCoreWebApp.pdb
+C:\Users\a.torris\Documents\GitHub\Angular2TypeScriptASPNETCoreWebApp\src\Angular2TypeScriptASPNETCoreWebApp\obj\Debug\netcoreapp1.1\Angular2TypeScriptASPNETCoreWebApp.csprojResolveAssemblyReference.cache
